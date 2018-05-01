@@ -1,0 +1,971 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.5.28)  7 FEB 2010 01:16
+entering extended mode
+ %&-line parsing enabled.
+**songbook.tex
+(./songbook.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/book.cls
+Document Class: book 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/bk10.clo
+File: bk10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2002/07/08 v3.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+(/usr/share/texmf-texlive/tex/latex/base/utf8.def
+File: utf8.def 2006/03/30 v1.1i UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encodingT1
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encodingOT1
+
+(/usr/share/texmf-texlive/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encodingOMS
+
+(/usr/share/texmf-texlive/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2005/11/23 v3.8h The Babel package
+
+(/usr/share/texmf-texlive/tex/generic/babel/swedish.ldf
+Language: swedish 2005/03/31 v2.3d Swedish support from the babel system
+
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2005/11/23 v3.8h Babel common definitions
+\babel@savecnt=\count91
+\U@D=\dimen107
+)
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Swedish'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@swedish = a dialect from \language0
+Package babel Info: Making " an active character on input line 90.
+)) (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count92
+))
+\Gin@req@height=\dimen108
+\Gin@req@width=\dimen109
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/import.sty) (./songs.sty
+Package: songs 2010/01/01 v2.10 Songs package
+
+(/usr/share/texmf-texlive/tex/latex/etex/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count93
+)
+\SB@dimen=\dimen110
+\SB@dimenii=\dimen111
+\SB@dimeniii=\dimen112
+\SB@dimeniv=\dimen113
+\SB@box=\box26
+\SB@boxii=\box27
+\SB@boxiii=\box28
+\SB@toks=\toks18
+\SB@cnt=\count94
+\SB@cntii=\count95
+\SB@skip=\skip52
+\c@songnum=\count96
+\c@versenum=\count97
+\versesep=\skip53
+\baselineadj=\skip54
+\idxheadwidth=\skip55
+\songnumwidth=\skip56
+\versenumwidth=\skip57
+\cbarwidth=\skip58
+\sbarheight=\skip59
+\vvpenalty=\count98
+\ccpenalty=\count99
+\vcpenalty=\count100
+\cvpenalty=\count101
+\brkpenalty=\count102
+\spenalty=\count103
+\SB@colwidth=\dimen114
+\SB@songbox=\box29
+\SB@numcols=\count104
+\SB@colnum=\count105
+\SB@colbox=\box30
+\SB@pgbox=\box31
+\SB@mrkbox=\box32
+\SB@titlelist=\toks19
+\SB@titletail=\toks20
+\SB@parindent=\dimen115
+\SB@chorusbox=\box33
+\SB@cmarkclass=\marks1
+\SB@nocmarkclass=\marks2
+\SB@srbox=\box34
+\SB@transposefactor=\count106
+\SB@lyric=\toks21
+\SB@numhyps=\count107
+\SB@lyricnohyp=\toks22
+\SB@lyricbox=\box35
+\SB@chordbox=\box36
+\SB@cr@=\toks23
+\SB@ctail=\toks24
+\SB@fretwidth=\skip60
+\SB@tabindent=\dimen116
+\c@SB@songsnum=\count108
+\SB@songwrites=\box37
+\SB@idxtitlebox=\box38
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3438.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3438.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3438.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 3438.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+))
+
+LaTeX Warning: Unused global option(s):
+    [a6paper,8pt,makeidx].
+
+(./songbook.aux)
+\openout1 = `songbook.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+-------------------- Geometry parameters
+paper: a6paper
+landscape: --
+twocolumn: --
+twoside: true
+asymmetric: --
+h-parts: 35.85083pt, 0.7\paperwidth , 53.77628pt (default)
+v-parts: 50.87402pt, 0.7\paperheight , 76.3111pt (default)
+hmarginratio: 2:3
+vmarginratio: 2:3
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  298.75394pt
+\paperheight 423.94606pt
+\textwidth  209.12683pt
+\textheight 296.76094pt
+\oddsidemargin  -36.41916pt
+\evensidemargin -18.49371pt
+\topmargin  -51.46346pt
+\headheight 12.0pt
+\headsep    18.06749pt
+\footskip   25.29494pt
+\marginparwidth 125.0pt
+\marginparsep   7.0pt
+\columnsep  10.0pt
+\skip\footins  9.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+\@twosidetrue \@mparswitchtrue 
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+\SB@theindex=\write3
+\openout3 = `register.sxd'.
+
+ (./IHoganNord/nord.tex
+<./IHoganNord/nord.jpg, id=1, 243.91125pt x 162.6075pt>
+File: ./IHoganNord/nord.jpg Graphic file (type jpg)
+
+<use ./IHoganNord/nord.jpg>
+Overfull \hbox (4.06992pt too wide) in paragraph at lines 7--8
+[][] 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./IHoganNord/nord.jpg>]
+(./IHoganNord/VartLand.tex) [2
+
+] (./IHoganNord/VasaMarsch.tex) [3
+
+] [4]
+(./IHoganNord/KymmenenVirranMaa.tex) [5
+
+]
+(./IHoganNord/OsterbottenOsterbotten.tex) [6
+
+] (./IHoganNord/MarschForUV.tex)
+[7
+
+] (./IHoganNord/BjorneborgarnasMarsch.tex) [8
+
+]
+(./IHoganNord/ModersmaletsSang.tex) [9
+
+] (./IHoganNord/FinlandiaHymnen.tex)
+[10
+
+] (./IHoganNord/EnSommardagIKangasala.tex) [11
+
+] (./IHoganNord/VidEnKalla.tex) [12
+
+] (./IHoganNord/Sommarmarsch.tex) [13
+
+] (./IHoganNord/DuGamlaDuFria.tex)
+[14
+
+] (./IHoganNord/DerErEttYndigtLand.tex) [15
+
+] (./IHoganNord/MuIsamaa.tex)
+[16
+
+]) (./IUngdomensVar/ungdom.tex (./IUngdomensVar/Studentsang.tex) [17
+
+
+]
+(./IUngdomensVar/Teinilaulu.tex [18
+
+]) [19]
+(./IUngdomensVar/DeBrevitateVitae.tex [20
+
+]) [21]
+(./IUngdomensVar/HoratiiOdeXxii.tex) [22
+
+] (./IUngdomensVar/UrAltHeidelberg.tex
+[23
+
+]) [24] (./IUngdomensVar/Majsang.tex [25
+
+]) [26]
+(./IUngdomensVar/LangtanTillLandet.tex) [27
+
+]
+(./IUngdomensVar/SlumrandeToner.tex) [28
+
+]) (./FafaSkaSjung/fafa.tex [29
+
+
+]
+(./FafaSkaSjung/KatongFields.tex) [30
+
+] (./FafaSkaSjung/EnBlamalaPlatbat.tex)
+[31
+
+] (./FafaSkaSjung/AstuMattasOmvandelse.tex) [32
+
+] [33]
+(./FafaSkaSjung/FullIFemtonAr.tex) [34
+
+] (./FafaSkaSjung/Noppaviisa.tex [35
+
+])
+[36] (./FafaSkaSjung/VaareIPedesi.tex) [37
+
+] [38]
+(./FafaSkaSjung/GrannasSkithus.tex) [39
+
+] (./FafaSkaSjung/NylandsNationshus.tex) [40
+
+] (./FafaSkaSjung/NTM.tex)) [41
+
+] [42] (./UrTorstigaStrupar/strupar.tex
+[43
+
+] (./UrTorstigaStrupar/BrannvinVatten.tex) [44
+
+]
+(./UrTorstigaStrupar/DarSomSadesfalten.tex) [45
+
+]
+(./UrTorstigaStrupar/DenSallskapssjukaHalvan.tex) [46
+
+]
+(./UrTorstigaStrupar/DetSattEnMas.tex) [47
+
+]
+(./UrTorstigaStrupar/FordomOdladeMan.tex) [48
+
+]
+(./UrTorstigaStrupar/GaPaFest.tex) [49
+
+] (./UrTorstigaStrupar/Halvankaren.tex)
+[50
+
+] (./UrTorstigaStrupar/Harjarevisan.tex) [51
+
+] [52]
+(./UrTorstigaStrupar/Helan.tex) [53
+
+] (./UrTorstigaStrupar/Heppeneppetepp.tex)
+[54
+
+] [55] (./UrTorstigaStrupar/HurLangeSkallPaBordet.tex) [56
+
+]
+(./UrTorstigaStrupar/Infinitesimaldifferensen.tex) [57
+
+]
+(./UrTorstigaStrupar/KassenFull.tex) [58
+
+] (./UrTorstigaStrupar/Kosmonauten.tex) [59
+
+] (./UrTorstigaStrupar/LivetArHarligt.tex) [60
+
+]
+(./UrTorstigaStrupar/MeraBrannvin.tex) [61
+
+] (./UrTorstigaStrupar/Minnet.tex)
+[62
+
+] (./UrTorstigaStrupar/MittLillaLan.tex) [63
+
+]
+(./UrTorstigaStrupar/OmCykling.tex) [64
+
+]
+(./UrTorstigaStrupar/Presidentvisan.tex) [65
+
+] (./UrTorstigaStrupar/Rattataa.tex) [66
+
+] (./UrTorstigaStrupar/RenHelanSlunkitNer.tex) [67
+
+]
+(./UrTorstigaStrupar/Rullaati.tex) [68
+
+] (./UrTorstigaStrupar/Sibbovisan.tex)
+[69
+
+] (./UrTorstigaStrupar/SornaiGusha.tex) [70
+
+]
+(./UrTorstigaStrupar/StruntISorger.tex) [71
+
+]
+(./UrTorstigaStrupar/TanaanOtetaan.tex) [72
+
+]
+(./UrTorstigaStrupar/TankOmJagHadeLillaNubben.tex) [73
+
+]
+(./UrTorstigaStrupar/TillSpritbolaget.tex) [74
+
+] (./UrTorstigaStrupar/Tuborg.tex) [75
+
+] (./UrTorstigaStrupar/UtiVarMage.tex) [76
+
+]
+(./UrTorstigaStrupar/UtiVartBarskap.tex) [77
+
+]
+(./UrTorstigaStrupar/VemSadeOrdet.tex) [78
+
+] (./UrTorstigaStrupar/VodkaVodka.tex) [79
+
+]) (./SaHarligBouquet/bouquet.tex [80
+
+
+]
+(./SaHarligBouquet/FredmansSang21.tex) [81
+
+] [82] [83]
+(./SaHarligBouquet/FredmansEpistel82.tex) [84
+
+] [85] [86]
+(./SaHarligBouquet/HarArGudagottAttVara.tex) [87
+
+]
+(./SaHarligBouquet/NarSkamtetTarOrdet.tex) [88
+
+] [89]
+(./SaHarligBouquet/DasKonigslied.tex) [90
+
+]
+(./SaHarligBouquet/BordeauxBordeaux.tex) [91
+
+]
+(./SaHarligBouquet/FrippesVinvisa.tex) [92
+
+] [93]
+(./SaHarligBouquet/FetaFransyskor.tex) [94
+
+]
+(./SaHarligBouquet/BortAlltVadOroGor.tex) [95
+
+]
+(./SaHarligBouquet/ImsigVimsig.tex) [96
+
+] (./SaHarligBouquet/Nattvarden.tex)
+[97
+
+] (./SaHarligBouquet/DrickaVillJagVitChablis.tex)) [98
+
+]
+(./ArrakAckJa/arrak.tex [99
+
+] (./ArrakAckJa/PunschenKommer.tex) [100
+
+]
+(./ArrakAckJa/Punschlinjen.tex) [101
+
+] (./ArrakAckJa/JagGillar.tex) [102
+
+]
+(./ArrakAckJa/Kaffevisa.tex) [103
+
+] (./ArrakAckJa/Djungelpunsch.tex) [104
+
+]
+(./ArrakAckJa/AllaSortersPunsch.tex) [105
+
+] (./ArrakAckJa/Crambamboli.tex)
+[106
+
+] [107] (./ArrakAckJa/GulPunschvisa.tex) [108
+
+]
+(./ArrakAckJa/VadjanTillPunschen.tex) [109
+
+]
+(./ArrakAckJa/SkonhetetenOchOdjuret.tex) [110
+
+]
+(./ArrakAckJa/SistaPunschvisan.tex)) [111
+
+] (./AuldAcquaintance/auld.tex
+[112
+
+] (./AuldAcquaintance/INorrlandVaxerDet.tex) [113
+
+]
+(./AuldAcquaintance/ViKomFranNorrland.tex) [114
+
+] [115]
+(./AuldAcquaintance/Kalmarevisan.tex) [116
+
+] [117]
+(./AuldAcquaintance/LossisNimegaGradesko.tex) [118
+
+]
+(./AuldAcquaintance/Aquaviten.tex) [119
+
+]
+(./AuldAcquaintance/JosEukkosiKieltaa.tex) [120
+
+] [121]
+(./AuldAcquaintance/TrinkTrink.tex) [122
+
+] (./AuldAcquaintance/Urbummellied.tex) [123
+
+] (./AuldAcquaintance/AuldLangSyne.tex)) [124
+
+]
+(./KunBotnialleSisaanAstuu/botnia.tex [125
+
+]
+(./KunBotnialleSisaanAstuu/FestmarschForVasaNation.tex) [126
+
+] [127]
+(./KunBotnialleSisaanAstuu/SangenOmVasungaflickan.tex) [128
+
+]
+(./KunBotnialleSisaanAstuu/KunVeikot.tex) [129
+
+]
+(./KunBotnialleSisaanAstuu/RammensVisa.tex) [130
+
+]
+(./KunBotnialleSisaanAstuu/RammensText.tex
+Overfull \hbox (3.92345pt too wide) in paragraph at lines 10--34
+\OT1/cmr/m/n/8 gan-s-ka prim-i-tivt, men mat-en varf[]ortr[]afflig och betj[]an
+ingen
+ []
+
+[131
+
+]
+Overfull \hbox (0.17062pt too wide) in paragraph at lines 35--55
+\OT1/cmr/m/n/8 han up-pen-ba-rade sig i ett glatt lag p^^Wa Os-trobot-nia. N^^W
+agon
+ []
+
+
+Overfull \hbox (5.97905pt too wide) in paragraph at lines 56--64
+\OT1/cmr/m/n/8 bos[]atta sig i hennes vil-la vid Medel-havet f[]or sin ^^Waters
+t^^Waende
+ []
+
+[132]
+Overfull \hbox (11.62135pt too wide) in paragraph at lines 65--80
+[]\OT1/cmr/m/n/8 Rammens visa skrevs v^^Warvintern 1913 av Thure Svedlin,
+ []
+
+
+Overfull \hbox (7.21794pt too wide) in paragraph at lines 65--80
+\OT1/cmr/m/n/8 ku-ra-tor Ar-tur Ek-lund ber[]attar i dik-ten ``Ett K[]onigsminn
+e'',
+ []
+
+
+Overfull \hbox (8.96103pt too wide) in paragraph at lines 65--80
+\OT1/cmr/m/n/8 Mikaels-gatan f[]or att med gemen-sam-ma krafter ^^Wastadkomma
+ []
+
+[133]) (./KunBotnialleSisaanAstuu/EttKonigsminne.tex) [134
+
+] [135] [136]
+(./KunBotnialleSisaanAstuu/OsterbottniskDryckesvisa.tex) [137
+
+]
+(./KunBotnialleSisaanAstuu/PiasSnapsvisa.tex) [138
+
+]
+(./KunBotnialleSisaanAstuu/ViSkalarForVaraVanner.tex) [139
+
+]
+(./KunBotnialleSisaanAstuu/PappaKomBort.tex) [140
+
+]
+(./KunBotnialleSisaanAstuu/JagArVasung.tex) [141
+
+]
+(./KunBotnialleSisaanAstuu/TvaVandrandeGesaller.tex) [142
+
+]
+(./KunBotnialleSisaanAstuu/KaksKisallia.tex) [143
+
+]
+(./KunBotnialleSisaanAstuu/IsooAnttiJaRannanjarvi.tex) [144
+
+])
+(./BlomdoftIMelodin/blomdoft.tex (./BlomdoftIMelodin/BaklandetsVackraMaja.tex)
+[145
+
+
+] (./BlomdoftIMelodin/BalladenOmHerrFredrikAkare.tex) [146
+
+]
+(./BlomdoftIMelodin/CalleSchewensVals.tex) [147
+
+] [148]
+(./BlomdoftIMelodin/DetVarDansBortIVagen.tex) [149
+
+] [150]
+(./BlomdoftIMelodin/EnSjomanAlskarHavetsVag.tex) [151
+
+] [152]
+(./BlomdoftIMelodin/Folkvisa.tex) [153
+
+] (./BlomdoftIMelodin/FotenIEnPotta.tex)
+[154
+
+] [155] (./BlomdoftIMelodin/FredmansEpistelNr9.tex) [156
+
+] [157]
+(./BlomdoftIMelodin/FredmansEpistelNr64.tex) [158
+
+]
+(./BlomdoftIMelodin/HarDuVisorMinVan.tex) [159
+
+]
+(./BlomdoftIMelodin/Hostvisa.tex) [160
+
+] [161]
+(./BlomdoftIMelodin/JagTrorPaSommaren.tex) [162
+
+]
+(./BlomdoftIMelodin/JungmanJansson.tex) [163
+
+]
+(./BlomdoftIMelodin/Kostervalsen.tex) [164
+
+] [165]
+(./BlomdoftIMelodin/KristallenDenFina.tex) [166
+
+]
+(./BlomdoftIMelodin/MenLiljornaDeVaxaUppOmVaren.tex) [167
+
+]
+(./BlomdoftIMelodin/Morgonvisa.tex) [168
+
+] (./BlomdoftIMelodin/OppnaLandskap.tex) [169
+
+] (./BlomdoftIMelodin/PlockaVillJagSkogsviol.tex) [170
+
+] [171]
+(./BlomdoftIMelodin/RosaPaBal.tex) [172
+
+] [173]
+(./BlomdoftIMelodin/SaLangeSkutanKanGa.tex) [174
+
+] [175]
+(./BlomdoftIMelodin/SaSkimrandeVarAldrigHavet.tex) [176
+
+]
+(./BlomdoftIMelodin/SjosalaVals.tex) [177
+
+] [178]
+(./BlomdoftIMelodin/SvinnstaSkar.tex) [179
+
+] [180]
+(./BlomdoftIMelodin/UnderRonnOchSyren.tex) [181
+
+] [182]
+(./BlomdoftIMelodin/VarvindarFriska.tex) [183
+
+]
+(./BlomdoftIMelodin/VisaVidVindensAngar.tex) [184
+
+]) (./Silliskapitel/sillis.tex [185
+
+
+] (./Silliskapitel/GorMigTillFinlandssvensk.tex) [186
+
+]
+(./Silliskapitel/JamlikVisa.tex) [187
+
+]
+(./Silliskapitel/IFinlandsDjupaSkogar.tex) [188
+
+] [189]
+(./Silliskapitel/Lambo.tex) [190
+
+] (./Silliskapitel/LitenJumbo.tex) [191
+
+]
+(./Silliskapitel/MjolkensLov.tex) [192
+
+] (./Silliskapitel/Sadistvisa.tex)
+[193
+
+] [194] (./Silliskapitel/SolenDenGarUppONer.tex) [195
+
+]
+(./Silliskapitel/Undulaten.tex) [196
+
+] [197]
+(./Silliskapitel/ViVillHaMeraRyssarUppIRymden.tex) [198
+
+]
+(./Silliskapitel/FinlandFinlandFinland.tex [199
+
+]) [200]) (./register.sbx)
+(./register.sbx) [201
+
+
+
+] [202
+
+] [203
+
+] [204
+
+] [205
+
+] [206
+
+] [207
+
+] [208
+
+] [209
+
+] [210
+
+]
+[211] [212
+
+] (./songbook.aux) ) 
+Here is how much of TeX's memory you used:
+ 2949 strings out of 95086
+ 42971 string characters out of 1183255
+ 131223 words of memory out of 1500000
+ 5624 multiletter control sequences out of 10000+50000
+ 10874 words of font info for 37 fonts, out of 1200000 for 2000
+ 28 hyphenation exceptions out of 8191
+ 31i,6n,43p,229b,178s stack positions out of 5000i,500n,6000p,200000b,5000s
+</usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmbx5.pfb>
+</usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmbx8.pfb></usr/share/texmf-te
+xlive/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/bl
+uesky/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr8.pfb></u
+sr/share/texmf-texlive/fonts/type1/bluesky/cm/cmss12.pfb></usr/share/texmf-texl
+ive/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/b
+luesky/cm/cmti12.pfb>
+Output written on songbook.pdf (212 pages, 356919 bytes).
+PDF statistics:
+ 714 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

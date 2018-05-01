@@ -1,0 +1,88 @@
+% Vasa nations sångbok Vasungavisor 2010
+
+\documentclass[a6paper,8pt,makeidx]{book}
+\usepackage[a6paper]{geometry}
+\usepackage[utf8]{inputenc} %UTF8 stöd så att jag kan skriva åäö
+\usepackage[swedish]{babel}
+\usepackage{fancyhdr}
+\usepackage[pdftex]{graphicx}	% Kuvat kyttn, tukee .png, .jpg ja .pdf-kuvia
+\usepackage{import}		% Verbatim-tekstityyppi
+%\usepackage{makeidx}
+
+\usepackage[lyric]{songs}
+
+
+%\setlength{\oddsidemargin}{0in}
+%\setlength{\evensidemargin}{0in}
+%\setlength{\textwidth}{6.5in}
+%\setlength{\topmargin}{0in}
+%\setlength{\topskip}{0in}
+%\setlength{\headheight}{0in}
+%\setlength{\headsep}{0in}
+%\setlength{\textheight}{9.1in}
+%\settowidth{\versenumwidth}{1.\ }
+\pagestyle{empty}
+\songcolumns{1}
+
+\newcommand{\melody}{}
+  \newsongkey{sr}{\def\melody{}}
+                  {\def\melody{#1\par}}
+                  
+\renewcommand{\extendprelude}{   
+    {\mdseries\melody}
+    \showauthors
+  }
+
+%\indexeson
+\newindex{mainindex}{register}
+\spenalty=-10001
+
+\renewcommand{\lyricfont}{\footnotesize}
+\renewcommand{\stitlefont}{\sffamily\large}
+
+\noversenumbers
+
+\begin{document}
+
+%\begin{songs}{mainindex}
+\addtocounter{songnum}{1}
+
+\import{./IHoganNord/}{nord.tex}
+\clearpage
+
+\import{./IUngdomensVar/}{ungdom.tex}
+\clearpage
+
+\import{./FafaSkaSjung/}{fafa.tex}	
+\clearpage
+
+\import{./UrTorstigaStrupar/}{strupar.tex}	
+\clearpage
+
+\import{./SaHarligBouquet/}{bouquet.tex}	
+\clearpage
+
+\import{./ArrakAckJa/}{arrak.tex}	
+\clearpage
+
+\import{./AuldAcquaintance/}{auld.tex}	
+\clearpage
+
+\import{./KunBotnialleSisaanAstuu/}{botnia.tex}	
+\clearpage
+
+\import{./BlomdoftIMelodin/}{blomdoft.tex}
+\clearpage
+
+\import{./Silliskapitel/}{sillis.tex}
+\clearpage
+
+%\end{songs}
+
+% index fonts and options
+\renewcommand{\idxtitlefont}{\rmfamily\mdseries}
+\renewcommand{\idxlyricfont}{\rmfamily\mdseries}
+\renewcommand{\idxheadfont}{\sffamily\it\large}
+\setlength{\idxheadwidth}{0.5cm}
+\showindex{Register}{mainindex}
+\end{document}
