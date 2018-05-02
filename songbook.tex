@@ -7,10 +7,8 @@
 \usepackage{fancyhdr}
 \usepackage[pdftex]{graphicx}	% Kuvat kyttn, tukee .png, .jpg ja .pdf-kuvia
 \usepackage{import}		% Verbatim-tekstityyppi
-%\usepackage{makeidx}
 
 \usepackage[lyric]{songs}
-
 
 %\setlength{\oddsidemargin}{0in}
 %\setlength{\evensidemargin}{0in}
@@ -27,13 +25,17 @@
 \newcommand{\melody}{}
   \newsongkey{sr}{\def\melody{}}
                   {\def\melody{#1\par}}
-                  
-\renewcommand{\extendprelude}{   
-    {\mdseries\melody}
-    \showauthors
+
+\newcommand{\comment}{}
+ \newsongkey{com}{\def\comment{}}
+                {\def\comment{#1\par}}
+
+ \renewcommand{\extendprelude}{
+     {\mdseries\melody}
+     \showauthors
+     {\mdseries\comment}
   }
 
-%\indexeson
 \newindex{mainindex}{register}
 \spenalty=-10001
 
@@ -53,9 +55,6 @@
 \import{./IUngdomensVar/}{ungdom.tex}
 \clearpage
 
-\import{./FafaSkaSjung/}{fafa.tex}	
-\clearpage
-
 \import{./UrTorstigaStrupar/}{strupar.tex}	
 \clearpage
 
@@ -65,10 +64,13 @@
 \import{./ArrakAckJa/}{arrak.tex}	
 \clearpage
 
-\import{./AuldAcquaintance/}{auld.tex}	
+\import{./FafaSkaSjung/}{fafa.tex}	
 \clearpage
 
 \import{./KunBotnialleSisaanAstuu/}{botnia.tex}	
+\clearpage
+
+\import{./AuldAcquaintance/}{auld.tex}	
 \clearpage
 
 \import{./BlomdoftIMelodin/}{blomdoft.tex}
