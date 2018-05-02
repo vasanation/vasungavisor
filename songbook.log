@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.5.28)  7 FEB 2010 01:16
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.5.28)  10 FEB 2010 08:20
 entering extended mode
  %&-line parsing enabled.
 **songbook.tex
@@ -391,18 +391,18 @@ LaTeX Warning: Unused global option(s):
 (./songbook.aux)
 \openout1 = `songbook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 -------------------- Geometry parameters
 paper: a6paper
 landscape: --
@@ -446,305 +446,432 @@ driver: pdftex
 \openout3 = `register.sxd'.
 
  (./IHoganNord/nord.tex
-<./IHoganNord/nord.jpg, id=1, 243.91125pt x 162.6075pt>
-File: ./IHoganNord/nord.jpg Graphic file (type jpg)
+<./IHoganNord/../bilder/i_hogan_nord.png, id=1, 577.1964pt x 474.8139pt>
+File: ./IHoganNord/../bilder/i_hogan_nord.png Graphic file (type png)
 
-<use ./IHoganNord/nord.jpg>
-Overfull \hbox (4.06992pt too wide) in paragraph at lines 7--8
-[][] 
+<use ./IHoganNord/../bilder/i_hogan_nord.png>
+Overfull \hbox (18.49521pt too wide) in paragraph at lines 8--9
+ [] 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./IHoganNord/nord.jpg>]
-(./IHoganNord/VartLand.tex) [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./IHoganNord/../bilder/i_h
+ogan_nord.png>] (./IHoganNord/VartLand.tex
+<./IHoganNord/../bilder/vart_land.png, id=7, 380.3811pt x 308.352pt>
+File: ./IHoganNord/../bilder/vart_land.png Graphic file (type png)
 
-] (./IHoganNord/VasaMarsch.tex) [3
+<use ./IHoganNord/../bilder/vart_land.png>) [2
 
-] [4]
-(./IHoganNord/KymmenenVirranMaa.tex) [5
+ <./IHoganNord/../bilder/vart_land.png>] (./IHoganNord/VasaMarsch.tex) [3
 
-]
-(./IHoganNord/OsterbottenOsterbotten.tex) [6
+] (./IHoganNord/VaasanMarssi.tex)
+[4
 
-] (./IHoganNord/MarschForUV.tex)
-[7
-
-] (./IHoganNord/BjorneborgarnasMarsch.tex) [8
+] (./IHoganNord/KymmenenVirranMaa.tex) [5
 
 ]
-(./IHoganNord/ModersmaletsSang.tex) [9
+(./IHoganNord/OsterbottenOsterbotten.tex)
+<./IHoganNord/../bilder/sad.jpg, id=23, 393.1488pt x 461.0826pt>
+File: ./IHoganNord/../bilder/sad.jpg Graphic file (type jpg)
+
+<use ./IHoganNord/../bilder/sad.jpg> [6
+
+ <./IHoganNord/../bilder/sad.jpg>]
+(./IHoganNord/MarschForUV.tex) [7
+
+] (./IHoganNord/BjorneborgarnasMarsch.tex
+<./IHoganNord/../bilder/bjorneborgarnas_marsch.png, id=31, 455.5419pt x 293.898
+pt>
+File: ./IHoganNord/../bilder/bjorneborgarnas_marsch.png Graphic file (type png)
+
+ <use ./IHoganNord/../bilder/bjorneborgarnas_marsch.png>
+Overfull \hbox (18.64355pt too wide) in paragraph at lines 31--32
+ [] 
+ []
+
+) [8
+
+] [9 <./IHoganNord/../bilder/bjorneborgarnas_marsch.png>]
+(./IHoganNord/ModersmaletsSang.tex) [10
 
 ] (./IHoganNord/FinlandiaHymnen.tex)
-[10
+[11
 
-] (./IHoganNord/EnSommardagIKangasala.tex) [11
+] (./IHoganNord/EnSommardagIKangasala.tex) [12
 
-] (./IHoganNord/VidEnKalla.tex) [12
+] (./IHoganNord/VidEnKalla.tex) [13
 
-] (./IHoganNord/Sommarmarsch.tex) [13
+] (./IHoganNord/Sommarmarsch.tex) [14
 
 ] (./IHoganNord/DuGamlaDuFria.tex)
-[14
+<./IHoganNord/../bilder/dalahast.jpg, id=55, 199.4652pt x 206.87288pt>
+File: ./IHoganNord/../bilder/dalahast.jpg Graphic file (type jpg)
 
-] (./IHoganNord/DerErEttYndigtLand.tex) [15
+<use ./IHoganNord/../bilder/dalahast.jpg> [15
+
+ <./IHoganNord/../bilder/dalahast.jpg>] (./IHoganNord/DerErEttYndigtLand.tex) [
+16
 
 ] (./IHoganNord/MuIsamaa.tex)
-[16
+[17
 
-]) (./IUngdomensVar/ungdom.tex (./IUngdomensVar/Studentsang.tex) [17
+]) (./IUngdomensVar/ungdom.tex
+<./IUngdomensVar/../bilder/havisamanda.jpg, id=65, 2121.9275pt x 2697.07625pt>
+File: ./IUngdomensVar/../bilder/havisamanda.jpg Graphic file (type jpg)
+
+<use ./IUngdomensVar/../bilder/havisamanda.jpg> [18
 
 
-]
-(./IUngdomensVar/Teinilaulu.tex [18
+ <./IUngdomensVar/../bilder/havisamanda.jpg>] (./IUngdomensVar/Studentsang.tex)
 
-]) [19]
-(./IUngdomensVar/DeBrevitateVitae.tex [20
+<./IUngdomensVar/../bilder/studenten.jpg, id=69, 1592.95125pt x 2013.5225pt>
+File: ./IUngdomensVar/../bilder/studenten.jpg Graphic file (type jpg)
+
+<use ./IUngdomensVar/../bilder/studenten.jpg> [19
+
+ <./IUngdomensVar/../bilder/studenten.jpg>] (./IUngdomensVar/Teinilaulu.tex [20
 
 ]) [21]
-(./IUngdomensVar/HoratiiOdeXxii.tex) [22
+(./IUngdomensVar/DeBrevitateVitae.tex [22
 
-] (./IUngdomensVar/UrAltHeidelberg.tex
-[23
+]) (./IUngdomensVar/HoratiiOdeXxii.tex) [23] (./IUngdomensVar/UrAltHeidelberg.t
+ex [24
 
-]) [24] (./IUngdomensVar/Majsang.tex [25
+]) [25]
+(./IUngdomensVar/Majsang.tex [26
 
-]) [26]
-(./IUngdomensVar/LangtanTillLandet.tex) [27
+]) [27] (./IUngdomensVar/LangtanTillLandet.tex) <./IUngdomensVar/../bilder/varb
+lomma.jpg, id=99, 1196.47pt x 1932.21875pt>
+File: ./IUngdomensVar/../bilder/varblomma.jpg Graphic file (type jpg)
 
-]
-(./IUngdomensVar/SlumrandeToner.tex) [28
+<use ./IUngdomensVar/../bilder/varblomma.jpg> [28
 
-]) (./FafaSkaSjung/fafa.tex [29
-
-
-]
-(./FafaSkaSjung/KatongFields.tex) [30
-
-] (./FafaSkaSjung/EnBlamalaPlatbat.tex)
-[31
-
-] (./FafaSkaSjung/AstuMattasOmvandelse.tex) [32
-
-] [33]
-(./FafaSkaSjung/FullIFemtonAr.tex) [34
-
-] (./FafaSkaSjung/Noppaviisa.tex [35
+ <./IUngdomensVar/../bilder/varblomma.jpg>] (./IUngdomensVar/SlumrandeToner.tex
+) [29
 
 ])
-[36] (./FafaSkaSjung/VaareIPedesi.tex) [37
+(./UrTorstigaStrupar/strupar.tex
+<./UrTorstigaStrupar/../bilder/helanochhalvan.jpg, id=106, 280.4076pt x 384.657
+07pt>
+File: ./UrTorstigaStrupar/../bilder/helanochhalvan.jpg Graphic file (type jpg)
+ <use ./UrTorstigaStrupar/../bilder/helanochhalvan.jpg> [30
 
-] [38]
-(./FafaSkaSjung/GrannasSkithus.tex) [39
 
-] (./FafaSkaSjung/NylandsNationshus.tex) [40
-
-] (./FafaSkaSjung/NTM.tex)) [41
-
-] [42] (./UrTorstigaStrupar/strupar.tex
-[43
-
-] (./UrTorstigaStrupar/BrannvinVatten.tex) [44
+ <./UrTorstigaStrupar/../bilder/helanochhalvan.jpg>] (./UrTorstigaStrupar/Helan
+.tex)
+(./UrTorstigaStrupar/Halvan.tex) (./UrTorstigaStrupar/Tersen.tex) [31
 
 ]
-(./UrTorstigaStrupar/DarSomSadesfalten.tex) [45
+(./UrTorstigaStrupar/Kvarten.tex) (./UrTorstigaStrupar/Kvinten.tex) [32
 
 ]
-(./UrTorstigaStrupar/DenSallskapssjukaHalvan.tex) [46
+(./UrTorstigaStrupar/Halvankaren.tex)
+(./UrTorstigaStrupar/DenSallskapssjukaHalvan.tex) [33
 
 ]
-(./UrTorstigaStrupar/DetSattEnMas.tex) [47
+(./UrTorstigaStrupar/DetSattEnMas.tex)
+<./UrTorstigaStrupar/../bilder/mas.jpg, id=120, 234.8775pt x 257.64255pt>
+File: ./UrTorstigaStrupar/../bilder/mas.jpg Graphic file (type jpg)
+
+<use ./UrTorstigaStrupar/../bilder/mas.jpg> [34
+
+ <./UrTorstigaStrupar/../bilder/mas.jpg>] (./UrTorstigaStrupar/GaPaFest.tex) [3
+5
 
 ]
-(./UrTorstigaStrupar/FordomOdladeMan.tex) [48
+(./UrTorstigaStrupar/Harjarevisan.tex) (./UrTorstigaStrupar/FordomOdladeMan.tex
+) [36
+
+] [37] (./UrTorstigaStrupar/Heppeneppetepp.tex) [38
 
 ]
-(./UrTorstigaStrupar/GaPaFest.tex) [49
+(./UrTorstigaStrupar/HurLangeSkallPaBordet.tex)
+(./UrTorstigaStrupar/DetPerfektaGlaset.tex) [39
 
-] (./UrTorstigaStrupar/Halvankaren.tex)
-[50
+]
+(./UrTorstigaStrupar/KassenFull.tex)
+(./UrTorstigaStrupar/Infinitesimaldifferensen.tex) [40
 
-] (./UrTorstigaStrupar/Harjarevisan.tex) [51
+]
+(./UrTorstigaStrupar/JagHarAldrigVartPaSnusen.tex) [41
 
-] [52]
-(./UrTorstigaStrupar/Helan.tex) [53
+]
+(./UrTorstigaStrupar/Kosmonauten.tex)
+<./UrTorstigaStrupar/../bilder/kosmonauten.png, id=146, 486.3771pt x 295.8252pt
+>
+File: ./UrTorstigaStrupar/../bilder/kosmonauten.png Graphic file (type png)
+ <use ./UrTorstigaStrupar/../bilder/kosmonauten.png>
+(./UrTorstigaStrupar/MittLillaLan.tex) [42
 
-] (./UrTorstigaStrupar/Heppeneppetepp.tex)
+] [43 <./UrTorstigaStrupar/../bilder/kosmonauten.png>] (./UrTorstigaStrupar/Liv
+etArHarligt.tex)
+<./UrTorstigaStrupar/../bilder/livet_ar_harligt.jpg, id=154, 422.7795pt x 202.1
+7532pt>
+File: ./UrTorstigaStrupar/../bilder/livet_ar_harligt.jpg Graphic file (type jpg
+)
+ <use ./UrTorstigaStrupar/../bilder/livet_ar_harligt.jpg> [44
+
+ <./UrTorstigaStrupar/../bilder/livet_ar_harligt.jpg>]
+(./UrTorstigaStrupar/MeraBrannvin.tex) (./UrTorstigaStrupar/OmCykling.tex)
+[45
+
+] (./UrTorstigaStrupar/Minnet.tex) [46
+
+]
+(./UrTorstigaStrupar/Presidentvisan.tex)
+<./UrTorstigaStrupar/../bilder/hallandeflaska.jpg, id=164, 354.123pt x 407.6028
+pt>
+File: ./UrTorstigaStrupar/../bilder/hallandeflaska.jpg Graphic file (type jpg)
+ <use ./UrTorstigaStrupar/../bilder/hallandeflaska.jpg> [47
+
+ <./UrTorstigaStrupar/../bilder/hallandeflaska.jpg>] (./UrTorstigaStrupar/Ratta
+taa.tex) [48
+
+]
+(./UrTorstigaStrupar/RenHelanSlunkitNer.tex) [49
+
+]
+(./UrTorstigaStrupar/BrannvinVatten.tex)
+<./UrTorstigaStrupar/../bilder/skalandehander.jpg, id=175, 391.7034pt x 309.315
+6pt>
+File: ./UrTorstigaStrupar/../bilder/skalandehander.jpg Graphic file (type jpg)
+ <use ./UrTorstigaStrupar/../bilder/skalandehander.jpg> [50
+
+ <./UrTorstigaStrupar/../bilder/skalandehander.jpg>] (./UrTorstigaStrupar/Rulla
+ati.tex)
+[51
+
+] (./UrTorstigaStrupar/Sibbovisan.tex) [52
+
+]
+(./UrTorstigaStrupar/SornaiGusha.tex) [53
+
+]
+(./UrTorstigaStrupar/StruntISorger.tex) (./UrTorstigaStrupar/TanaanOtetaan.tex)
 [54
 
-] [55] (./UrTorstigaStrupar/HurLangeSkallPaBordet.tex) [56
+] (./UrTorstigaStrupar/TankOmJagHadeLillaNubben.tex)
+(./UrTorstigaStrupar/TillSpritbolaget.tex) [55
+
+] (./UrTorstigaStrupar/Tuborg.tex) <./UrTorstigaStrupar/../bilder/stop.jpg, id=
+195, 323.7696pt x 398.9304pt>
+File: ./UrTorstigaStrupar/../bilder/stop.jpg Graphic file (type jpg)
+
+<use ./UrTorstigaStrupar/../bilder/stop.jpg> [56
+
+ <./UrTorstigaStrupar/../bilder/stop.jpg>] (./UrTorstigaStrupar/UtiVarMage.tex)
+
+(./UrTorstigaStrupar/UtiVartBarskap.tex) [57
 
 ]
-(./UrTorstigaStrupar/Infinitesimaldifferensen.tex) [57
+(./UrTorstigaStrupar/DarSomSadesfalten.tex)
+<./UrTorstigaStrupar/../bilder/javel.jpg, id=202, 163.3302pt x 322.86623pt>
+File: ./UrTorstigaStrupar/../bilder/javel.jpg Graphic file (type jpg)
+
+<use ./UrTorstigaStrupar/../bilder/javel.jpg> [58
+
+ <./UrTorstigaStrupar/../bilder/javel.jpg>] (./UrTorstigaStrupar/VemSadeOrdet.t
+ex)
+(./UrTorstigaStrupar/VodkaVodka.tex) [59
+
+] (./UrTorstigaStrupar/OlVinSprit.tex)
+(./UrTorstigaStrupar/JagVarFullEnGang.tex) [60
 
 ]
-(./UrTorstigaStrupar/KassenFull.tex) [58
+(./UrTorstigaStrupar/Vikingen.tex) [61
 
-] (./UrTorstigaStrupar/Kosmonauten.tex) [59
+]) (./SaHarligBouquet/bouquet.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
 
-] (./UrTorstigaStrupar/LivetArHarligt.tex) [60
+<./SaHarligBouquet/../bilder/vinet.jpg, id=216, 1283.79625pt x 3038.35126pt>
+File: ./SaHarligBouquet/../bilder/vinet.jpg Graphic file (type jpg)
 
-]
-(./UrTorstigaStrupar/MeraBrannvin.tex) [61
+<use ./SaHarligBouquet/../bilder/vinet.jpg> [62
 
-] (./UrTorstigaStrupar/Minnet.tex)
-[62
 
-] (./UrTorstigaStrupar/MittLillaLan.tex) [63
+ <./SaHarligBouquet/../bilder/vinet.jpg>] (./SaHarligBouquet/FredmansSang21.tex
+) [63
 
-]
-(./UrTorstigaStrupar/OmCykling.tex) [64
+] [64] [65]
+(./SaHarligBouquet/FredmansEpistel82.tex) [66
 
-]
-(./UrTorstigaStrupar/Presidentvisan.tex) [65
+] [67]
+(./SaHarligBouquet/FredmansSangNr8.tex)
+<./SaHarligBouquet/../bilder/flaskor.jpg, id=236, 451.6875pt x 368.1253pt>
+File: ./SaHarligBouquet/../bilder/flaskor.jpg Graphic file (type jpg)
 
-] (./UrTorstigaStrupar/Rattataa.tex) [66
+<use ./SaHarligBouquet/../bilder/flaskor.jpg> [68
 
-] (./UrTorstigaStrupar/RenHelanSlunkitNer.tex) [67
+] [69 <./SaHarligBouquet/../bilder/flaskor.jpg>] (./SaHarligBouquet/HarArGudago
+ttAttVara.tex)
+<./SaHarligBouquet/../bilder/klover.jpg, id=243, 293.4162pt x 281.853pt>
+File: ./SaHarligBouquet/../bilder/klover.jpg Graphic file (type jpg)
 
-]
-(./UrTorstigaStrupar/Rullaati.tex) [68
+<use ./SaHarligBouquet/../bilder/klover.jpg> [70
 
-] (./UrTorstigaStrupar/Sibbovisan.tex)
-[69
+ <./SaHarligBouquet/../bilder/klover.jpg>] (./SaHarligBouquet/NarSkamtetTarOrde
+t.tex)
+<./SaHarligBouquet/../bilder/vinglas.jpg, id=247, 469.755pt x 1078.0275pt>
+File: ./SaHarligBouquet/../bilder/vinglas.jpg Graphic file (type jpg)
 
-] (./UrTorstigaStrupar/SornaiGusha.tex) [70
+<use ./SaHarligBouquet/../bilder/vinglas.jpg> [71
 
-]
-(./UrTorstigaStrupar/StruntISorger.tex) [71
-
-]
-(./UrTorstigaStrupar/TanaanOtetaan.tex) [72
-
-]
-(./UrTorstigaStrupar/TankOmJagHadeLillaNubben.tex) [73
-
-]
-(./UrTorstigaStrupar/TillSpritbolaget.tex) [74
-
-] (./UrTorstigaStrupar/Tuborg.tex) [75
-
-] (./UrTorstigaStrupar/UtiVarMage.tex) [76
+] [72 <./SaHarligBouquet/../bilder/vinglas.jpg>] (./SaHarligBouquet/DrickaVillJ
+agVitChablis.tex) [73
 
 ]
-(./UrTorstigaStrupar/UtiVartBarskap.tex) [77
+(./SaHarligBouquet/BortAlltVadOroGor.tex) [74
 
 ]
-(./UrTorstigaStrupar/VemSadeOrdet.tex) [78
+(./SaHarligBouquet/DasKonigslied.tex) (./SaHarligBouquet/ImsigVimsig.tex)
+[75
 
-] (./UrTorstigaStrupar/VodkaVodka.tex) [79
+] (./SaHarligBouquet/BordeauxBordeaux.tex)
+<./SaHarligBouquet/../bilder/druvor.jpg, id=264, 136.04828pt x 134.60287pt>
+File: ./SaHarligBouquet/../bilder/druvor.jpg Graphic file (type jpg)
 
-]) (./SaHarligBouquet/bouquet.tex [80
+<use ./SaHarligBouquet/../bilder/druvor.jpg> [76
 
+ <./SaHarligBouquet/../bilder/druvor.jpg>] (./SaHarligBouquet/FetaFransyskor.te
+x)
+<./SaHarligBouquet/../bilder/fetfransyska.jpg, id=268, 840.13875pt x 1356.06625
+pt>
+File: ./SaHarligBouquet/../bilder/fetfransyska.jpg Graphic file (type jpg)
+ <use ./SaHarligBouquet/../bilder/fetfransyska.jpg> [77
 
-]
-(./SaHarligBouquet/FredmansSang21.tex) [81
-
-] [82] [83]
-(./SaHarligBouquet/FredmansEpistel82.tex) [84
-
-] [85] [86]
-(./SaHarligBouquet/HarArGudagottAttVara.tex) [87
-
-]
-(./SaHarligBouquet/NarSkamtetTarOrdet.tex) [88
-
-] [89]
-(./SaHarligBouquet/DasKonigslied.tex) [90
+] [78 <./SaHarligBouquet/../bilder/fetfransyska.jpg>] (./SaHarligBouquet/Nattva
+rden.tex)
+(./SaHarligBouquet/UpptappadBakomEnVagn.tex) [79
 
 ]
-(./SaHarligBouquet/BordeauxBordeaux.tex) [91
+(./SaHarligBouquet/FrippesVinvisa.tex)) [80
+
+] [81] (./ArrakAckJa/arrak.tex
+<./ArrakAckJa/../bilder/punschdrickandepar.jpg, id=285, 403.80862pt x 406.33807
+pt>
+File: ./ArrakAckJa/../bilder/punschdrickandepar.jpg Graphic file (type jpg)
+ <use ./ArrakAckJa/../bilder/punschdrickandepar.jpg> [82
+
+ <./ArrakAckJa/../bilder/punschdrickandepar.jpg>] (./ArrakAckJa/PunschenKommer.
+tex
+<./ArrakAckJa/../bilder/punschenkommer.jpg, id=289, 295.76497pt x 262.15942pt>
+File: ./ArrakAckJa/../bilder/punschenkommer.jpg Graphic file (type jpg)
+
+<use ./ArrakAckJa/../bilder/punschenkommer.jpg>) [83
+
+ <./ArrakAckJa/../bilder/punschenkommer.jpg>] (./ArrakAckJa/Punschlinjen.tex) (
+./ArrakAckJa/JagGillar.tex) [84
+
+] (./ArrakAckJa/Kaffevisa.tex
+<./ArrakAckJa/../bilder/gladkaffekopp.jpg, id=296, 234.1548pt x 208.67963pt>
+File: ./ArrakAckJa/../bilder/gladkaffekopp.jpg Graphic file (type jpg)
+
+<use ./ArrakAckJa/../bilder/gladkaffekopp.jpg>) [85
+
+ <./ArrakAckJa/../bilder/gladkaffekopp.jpg>] (./ArrakAckJa/Djungelpunsch.tex) [
+86
 
 ]
-(./SaHarligBouquet/FrippesVinvisa.tex) [92
+(./ArrakAckJa/AllaSortersPunsch.tex) [87
 
-] [93]
-(./SaHarligBouquet/FetaFransyskor.tex) [94
-
-]
-(./SaHarligBouquet/BortAlltVadOroGor.tex) [95
+] (./ArrakAckJa/Crambamboli.tex
+[88
 
 ]
-(./SaHarligBouquet/ImsigVimsig.tex) [96
+<./ArrakAckJa/../bilder/crambamboli.jpg, id=310, 179.59094pt x 343.82452pt>
+File: ./ArrakAckJa/../bilder/crambamboli.jpg Graphic file (type jpg)
 
-] (./SaHarligBouquet/Nattvarden.tex)
-[97
-
-] (./SaHarligBouquet/DrickaVillJagVitChablis.tex)) [98
-
-]
-(./ArrakAckJa/arrak.tex [99
-
-] (./ArrakAckJa/PunschenKommer.tex) [100
+<use ./ArrakAckJa/../bilder/crambamboli.jpg>) [89 <./ArrakAckJa/../bilder/cramb
+amboli.jpg>] (./ArrakAckJa/GulPunschvisa.tex)
+(./ArrakAckJa/VadjanTillPunschen.tex) [90
 
 ]
-(./ArrakAckJa/Punschlinjen.tex) [101
+(./ArrakAckJa/SkonhetetenOchOdjuret.tex
+<./ArrakAckJa/../bilder/drickande_far.jpg, id=317, 364.60216pt x 381.04358pt>
+File: ./ArrakAckJa/../bilder/drickande_far.jpg Graphic file (type jpg)
 
-] (./ArrakAckJa/JagGillar.tex) [102
+<use ./ArrakAckJa/../bilder/drickande_far.jpg>) [91
 
-]
-(./ArrakAckJa/Kaffevisa.tex) [103
+ <./ArrakAckJa/../bilder/drickande_far.jpg>] (./ArrakAckJa/SistaPunschvisan.tex
 
-] (./ArrakAckJa/Djungelpunsch.tex) [104
+<./ArrakAckJa/../bilder/sistapunschvisan.jpg, id=322, 321.24014pt x 313.83247pt
+>
+File: ./ArrakAckJa/../bilder/sistapunschvisan.jpg Graphic file (type jpg)
+ <use ./ArrakAckJa/../bilder/sistapunschvisan.jpg>)) [92
 
-]
-(./ArrakAckJa/AllaSortersPunsch.tex) [105
+ <./ArrakAckJa/../bilder/sistapunschvisan.jpg>] (./FafaSkaSjung/fafa.tex
+<./FafaSkaSjung/../bilder/fafa_ska_sjung.png, id=326, 422.0568pt x 329.3103pt>
+File: ./FafaSkaSjung/../bilder/fafa_ska_sjung.png Graphic file (type png)
 
-] (./ArrakAckJa/Crambamboli.tex)
-[106
+<use ./FafaSkaSjung/../bilder/fafa_ska_sjung.png>
+Overfull \hbox (23.00511pt too wide) in paragraph at lines 7--8
+[][] 
+ []
 
-] [107] (./ArrakAckJa/GulPunschvisa.tex) [108
+[93
 
-]
-(./ArrakAckJa/VadjanTillPunschen.tex) [109
+ <./FafaSkaSjung/../bilder/fafa_ska_sjung.png>]
+(./FafaSkaSjung/EnBlamalaPlatbat.tex
+<./FafaSkaSjung/../bilder/in_blamala_platbat.png, id=330, 469.0323pt x 324.0105
+pt>
+File: ./FafaSkaSjung/../bilder/in_blamala_platbat.png Graphic file (type png)
+ <use ./FafaSkaSjung/../bilder/in_blamala_platbat.png>) [94
 
-]
-(./ArrakAckJa/SkonhetetenOchOdjuret.tex) [110
+] [95 <./FafaSkaSjung/../bilder/in_blamala_platbat.png>]
+(./FafaSkaSjung/AstuMattasOmvandelse.tex)
+<./FafaSkaSjung/../bilder/brannvinsflaska.jpg, id=337, 176.3388pt x 264.5082pt>
+File: ./FafaSkaSjung/../bilder/brannvinsflaska.jpg Graphic file (type jpg)
+<use ./FafaSkaSjung/../bilder/brannvinsflaska.jpg> [96
 
-]
-(./ArrakAckJa/SistaPunschvisan.tex)) [111
-
-] (./AuldAcquaintance/auld.tex
-[112
-
-] (./AuldAcquaintance/INorrlandVaxerDet.tex) [113
-
-]
-(./AuldAcquaintance/ViKomFranNorrland.tex) [114
-
-] [115]
-(./AuldAcquaintance/Kalmarevisan.tex) [116
-
-] [117]
-(./AuldAcquaintance/LossisNimegaGradesko.tex) [118
-
-]
-(./AuldAcquaintance/Aquaviten.tex) [119
+] [97 <./FafaSkaSjung/../bilder/brannvinsflaska.jpg>] (./FafaSkaSjung/FullIFemt
+onAr.tex) [98
 
 ]
-(./AuldAcquaintance/JosEukkosiKieltaa.tex) [120
+(./FafaSkaSjung/Noppaviisa.tex [99
 
-] [121]
-(./AuldAcquaintance/TrinkTrink.tex) [122
+]) [100] (./FafaSkaSjung/KatongFields.tex)
+<./FafaSkaSjung/../bilder/katongfields.png, id=354, 592.3731pt x 363.0363pt>
+File: ./FafaSkaSjung/../bilder/katongfields.png Graphic file (type png)
 
-] (./AuldAcquaintance/Urbummellied.tex) [123
+<use ./FafaSkaSjung/../bilder/katongfields.png>
 
-] (./AuldAcquaintance/AuldLangSyne.tex)) [124
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[101
+
+] [102 <./FafaSkaSjung/../bilder/katongfields.png>]
+(./FafaSkaSjung/VaareIPedesi.tex)
+<./FafaSkaSjung/../bilder/natur.jpg, id=361, 249.51218pt x 192.9609pt>
+File: ./FafaSkaSjung/../bilder/natur.jpg Graphic file (type jpg)
+
+<use ./FafaSkaSjung/../bilder/natur.jpg> [103
+
+] [104 <./FafaSkaSjung/../bilder/natur.jpg>] (./FafaSkaSjung/GrannasSkithus.tex
+) [105
 
 ]
-(./KunBotnialleSisaanAstuu/botnia.tex [125
+(./FafaSkaSjung/NylandsNationshus.tex) (./FafaSkaSjung/NTM.tex [106
+
+])) [107]
+(./KunBotnialleSisaanAstuu/botnia.tex
+<./KunBotnialleSisaanAstuu/../bilder/ostrobotnia.jpg, id=378, 420.06938pt x 451
+.6875pt>
+File: ./KunBotnialleSisaanAstuu/../bilder/ostrobotnia.jpg Graphic file (type jp
+g)
+ <use ./KunBotnialleSisaanAstuu/../bilder/ostrobotnia.jpg> [108
+
+ <./KunBotnialleSisaanAstuu/../bilder/ostrobotnia.jpg>]
+(./KunBotnialleSisaanAstuu/FestmarschForVasaNation.tex) [109
+
+] [110]
+(./KunBotnialleSisaanAstuu/SangenOmVasungaflickan.tex) [111
 
 ]
-(./KunBotnialleSisaanAstuu/FestmarschForVasaNation.tex) [126
-
-] [127]
-(./KunBotnialleSisaanAstuu/SangenOmVasungaflickan.tex) [128
-
-]
-(./KunBotnialleSisaanAstuu/KunVeikot.tex) [129
-
-]
-(./KunBotnialleSisaanAstuu/RammensVisa.tex) [130
+(./KunBotnialleSisaanAstuu/RammensVisa.tex) [112
 
 ]
 (./KunBotnialleSisaanAstuu/RammensText.tex
@@ -753,7 +880,7 @@ Overfull \hbox (3.92345pt too wide) in paragraph at lines 10--34
 ingen
  []
 
-[131
+[113
 
 ]
 Overfull \hbox (0.17062pt too wide) in paragraph at lines 35--55
@@ -767,15 +894,15 @@ Overfull \hbox (5.97905pt too wide) in paragraph at lines 56--64
 t^^Waende
  []
 
-[132]
+[114]
 Overfull \hbox (11.62135pt too wide) in paragraph at lines 65--80
 []\OT1/cmr/m/n/8 Rammens visa skrevs v^^Warvintern 1913 av Thure Svedlin,
  []
 
 
-Overfull \hbox (7.21794pt too wide) in paragraph at lines 65--80
-\OT1/cmr/m/n/8 ku-ra-tor Ar-tur Ek-lund ber[]attar i dik-ten ``Ett K[]onigsminn
-e'',
+Overfull \hbox (11.94023pt too wide) in paragraph at lines 65--80
+\OT1/cmr/m/n/8 ku-ra-tor Ar-tur Ek-lund ber[]attar i dik-ten ``Ett K[]onigs- mi
+nne'',
  []
 
 
@@ -783,189 +910,357 @@ Overfull \hbox (8.96103pt too wide) in paragraph at lines 65--80
 \OT1/cmr/m/n/8 Mikaels-gatan f[]or att med gemen-sam-ma krafter ^^Wastadkomma
  []
 
-[133]) (./KunBotnialleSisaanAstuu/EttKonigsminne.tex) [134
-
-] [135] [136]
-(./KunBotnialleSisaanAstuu/OsterbottniskDryckesvisa.tex) [137
-
-]
-(./KunBotnialleSisaanAstuu/PiasSnapsvisa.tex) [138
-
-]
-(./KunBotnialleSisaanAstuu/ViSkalarForVaraVanner.tex) [139
+[115]) (./KunBotnialleSisaanAstuu/EttKonigsminne.tex)
+<./KunBotnialleSisaanAstuu/../bilder/rammens_visa.png, id=406, 423.0204pt x 226
+.9278pt>
+File: ./KunBotnialleSisaanAstuu/../bilder/rammens_visa.png Graphic file (type p
+ng)
+ <use ./KunBotnialleSisaanAstuu/../bilder/rammens_visa.png> [116
 
 ]
-(./KunBotnialleSisaanAstuu/PappaKomBort.tex) [140
+[117] [118 <./KunBotnialleSisaanAstuu/../bilder/rammens_visa.png>]
+(./KunBotnialleSisaanAstuu/OsterbottniskDryckesvisa.tex)
+(./KunBotnialleSisaanAstuu/PiasSnapsvisa.tex) [119
 
 ]
-(./KunBotnialleSisaanAstuu/JagArVasung.tex) [141
+(./KunBotnialleSisaanAstuu/KunVeikot.tex)
+<./KunBotnialleSisaanAstuu/../bilder/kun_veikot.png, id=419, 460.119pt x 289.56
+18pt>
+File: ./KunBotnialleSisaanAstuu/../bilder/kun_veikot.png Graphic file (type png
+)
+ <use ./KunBotnialleSisaanAstuu/../bilder/kun_veikot.png> [120
+
+] [121 <./KunBotnialleSisaanAstuu/../bilder/kun_veikot.png>]
+(./KunBotnialleSisaanAstuu/ViSkalarForVaraVanner.tex)
+(./KunBotnialleSisaanAstuu/PappaKomBort.tex)
+<./KunBotnialleSisaanAstuu/../bilder/pappa.jpg, id=427, 303.17265pt x 188.80537
+pt>
+File: ./KunBotnialleSisaanAstuu/../bilder/pappa.jpg Graphic file (type jpg)
+ <use ./KunBotnialleSisaanAstuu/../bilder/pappa.jpg> [122
+
+ <./KunBotnialleSisaanAstuu/../bilder/pappa.jpg>] (./KunBotnialleSisaanAstuu/Ja
+gArVasung.tex)
+[123
+
+] (./KunBotnialleSisaanAstuu/TvaVandrandeGesaller.tex) [124
 
 ]
-(./KunBotnialleSisaanAstuu/TvaVandrandeGesaller.tex) [142
+(./KunBotnialleSisaanAstuu/KaksKisallia.tex) [125
 
 ]
-(./KunBotnialleSisaanAstuu/KaksKisallia.tex) [143
+(./KunBotnialleSisaanAstuu/LauletaanpaMeNuoretPojat.tex) [126
 
 ]
-(./KunBotnialleSisaanAstuu/IsooAnttiJaRannanjarvi.tex) [144
+(./KunBotnialleSisaanAstuu/IsooAnttiJaRannanjarvi.tex) [127
 
 ])
-(./BlomdoftIMelodin/blomdoft.tex (./BlomdoftIMelodin/BaklandetsVackraMaja.tex)
-[145
+(./AuldAcquaintance/auld.tex
+<./AuldAcquaintance/../bilder/auld.jpg, id=447, 351.9549pt x 399.11107pt>
+File: ./AuldAcquaintance/../bilder/auld.jpg Graphic file (type jpg)
+
+<use ./AuldAcquaintance/../bilder/auld.jpg> [128
 
 
-] (./BlomdoftIMelodin/BalladenOmHerrFredrikAkare.tex) [146
-
-]
-(./BlomdoftIMelodin/CalleSchewensVals.tex) [147
-
-] [148]
-(./BlomdoftIMelodin/DetVarDansBortIVagen.tex) [149
-
-] [150]
-(./BlomdoftIMelodin/EnSjomanAlskarHavetsVag.tex) [151
-
-] [152]
-(./BlomdoftIMelodin/Folkvisa.tex) [153
-
-] (./BlomdoftIMelodin/FotenIEnPotta.tex)
-[154
-
-] [155] (./BlomdoftIMelodin/FredmansEpistelNr9.tex) [156
-
-] [157]
-(./BlomdoftIMelodin/FredmansEpistelNr64.tex) [158
+ <./AuldAcquaintance/../bilder/auld.jpg>] (./AuldAcquaintance/JagTrivsBastIOste
+rbotten.tex) [129
 
 ]
-(./BlomdoftIMelodin/HarDuVisorMinVan.tex) [159
+(./AuldAcquaintance/INorrlandVaxerDet.tex)
+<./AuldAcquaintance/../bilder/inorrland.jpg, id=454, 318.53003pt x 344.0052pt>
+File: ./AuldAcquaintance/../bilder/inorrland.jpg Graphic file (type jpg)
+
+<use ./AuldAcquaintance/../bilder/inorrland.jpg> [130
+
+ <./AuldAcquaintance/../bilder/inorrland.jpg>] (./AuldAcquaintance/ViKomFranNor
+rland.tex) [131
+
+] [132]
+(./AuldAcquaintance/Kalmarevisan.tex)
+<./AuldAcquaintance/../bilder/bonde.jpg, id=464, 235.05818pt x 228.55388pt>
+File: ./AuldAcquaintance/../bilder/bonde.jpg Graphic file (type jpg)
+
+<use ./AuldAcquaintance/../bilder/bonde.jpg> [133
+
+] [134 <./AuldAcquaintance/../bilder/bonde.jpg>] (./AuldAcquaintance/LossisNime
+gaGradesko.tex) [135
 
 ]
-(./BlomdoftIMelodin/Hostvisa.tex) [160
-
-] [161]
-(./BlomdoftIMelodin/JagTrorPaSommaren.tex) [162
+(./AuldAcquaintance/MeMottedOnPriid.tex) [136
 
 ]
-(./BlomdoftIMelodin/JungmanJansson.tex) [163
+(./AuldAcquaintance/Aquaviten.tex)
+<./AuldAcquaintance/../bilder/dansk.jpg, id=478, 136.95164pt x 324.31163pt>
+File: ./AuldAcquaintance/../bilder/dansk.jpg Graphic file (type jpg)
+
+<use ./AuldAcquaintance/../bilder/dansk.jpg> [137
+
+ <./AuldAcquaintance/../bilder/dansk.jpg>] (./AuldAcquaintance/ViinaPainaa.tex)
+ [138
 
 ]
-(./BlomdoftIMelodin/Kostervalsen.tex) [164
+(./AuldAcquaintance/JosEukkosiKieltaa.tex) [139
 
-] [165]
-(./BlomdoftIMelodin/KristallenDenFina.tex) [166
+] [140]
+(./AuldAcquaintance/TrinkTrink.tex)
+<./AuldAcquaintance/../bilder/trinktrink.jpg, id=492, 305.7021pt x 315.8199pt>
+File: ./AuldAcquaintance/../bilder/trinktrink.jpg Graphic file (type jpg)
 
-]
-(./BlomdoftIMelodin/MenLiljornaDeVaxaUppOmVaren.tex) [167
+<use ./AuldAcquaintance/../bilder/trinktrink.jpg> [141
 
-]
-(./BlomdoftIMelodin/Morgonvisa.tex) [168
-
-] (./BlomdoftIMelodin/OppnaLandskap.tex) [169
-
-] (./BlomdoftIMelodin/PlockaVillJagSkogsviol.tex) [170
-
-] [171]
-(./BlomdoftIMelodin/RosaPaBal.tex) [172
-
-] [173]
-(./BlomdoftIMelodin/SaLangeSkutanKanGa.tex) [174
-
-] [175]
-(./BlomdoftIMelodin/SaSkimrandeVarAldrigHavet.tex) [176
+ <./AuldAcquaintance/../bilder/trinktrink.jpg>] (./AuldAcquaintance/Urbummellie
+d.tex) [142
 
 ]
-(./BlomdoftIMelodin/SjosalaVals.tex) [177
+(./AuldAcquaintance/SoTrollnWirUns.tex) [143
+
+] [144]
+(./AuldAcquaintance/AuldLangSyne.tex) [145
+
+]
+(./AuldAcquaintance/WhatShouldWeDo.tex) [146
+
+]
+(./AuldAcquaintance/KukaHelvetti.tex)) [147
+
+] (./BlomdoftIMelodin/blomdoft.tex
+<./BlomdoftIMelodin/../bilder/blomdoft.jpg, id=515, 1562.83875pt x 1603.9925pt>
+File: ./BlomdoftIMelodin/../bilder/blomdoft.jpg Graphic file (type jpg)
+<use ./BlomdoftIMelodin/../bilder/blomdoft.jpg> [148
+
+ <./BlomdoftIMelodin/../bilder/blomdoft.jpg>] (./BlomdoftIMelodin/BaklandetsVac
+kraMaja.tex) [149
+
+]
+(./BlomdoftIMelodin/BalladenOmHerrFredrikAkare.tex) [150
+
+]
+(./BlomdoftIMelodin/CalleSchewensVals.tex)
+<./BlomdoftIMelodin/../bilder/varsomhelst.jpg, id=525, 172.36395pt x 380.1402pt
+>
+File: ./BlomdoftIMelodin/../bilder/varsomhelst.jpg Graphic file (type jpg)
+ <use ./BlomdoftIMelodin/../bilder/varsomhelst.jpg> [151
+
+] [152 <./BlomdoftIMelodin/../bilder/varsomhelst.jpg>] (./BlomdoftIMelodin/DetV
+arDansBortIVagen.tex)
+[153
+
+] [154] (./BlomdoftIMelodin/EnSjomanAlskarHavetsVag.tex) [155
+
+]
+(./BlomdoftIMelodin/Folkvisa.tex)
+<./BlomdoftIMelodin/../bilder/eloveena.jpg, id=542, 344.7279pt x 285.28583pt>
+File: ./BlomdoftIMelodin/../bilder/eloveena.jpg Graphic file (type jpg)
+
+<use ./BlomdoftIMelodin/../bilder/eloveena.jpg> [156
+
+ <./BlomdoftIMelodin/../bilder/eloveena.jpg>] (./BlomdoftIMelodin/FotenIEnPotta
+.tex) [157
+
+] [158]
+(./BlomdoftIMelodin/FredmansEpistelNr9.tex) [159
+
+] [160]
+(./BlomdoftIMelodin/FredmansEpistelNr64.tex)
+<./BlomdoftIMelodin/../bilder/fjaril.jpg, id=559, 211.0284pt x 293.4162pt>
+File: ./BlomdoftIMelodin/../bilder/fjaril.jpg Graphic file (type jpg)
+
+<use ./BlomdoftIMelodin/../bilder/fjaril.jpg> [161
+
+ <./BlomdoftIMelodin/../bilder/fjaril.jpg>] (./BlomdoftIMelodin/HarDuVisorMinVa
+n.tex) [162
+
+]
+(./BlomdoftIMelodin/Hostvisa.tex)
+<./BlomdoftIMelodin/../bilder/hjarta.jpg, id=566, 1136.245pt x 780.9175pt>
+File: ./BlomdoftIMelodin/../bilder/hjarta.jpg Graphic file (type jpg)
+
+<use ./BlomdoftIMelodin/../bilder/hjarta.jpg> [163
+
+] [164 <./BlomdoftIMelodin/../bilder/hjarta.jpg>] (./BlomdoftIMelodin/JagTrorPa
+Sommaren.tex) [165
+
+]
+(./BlomdoftIMelodin/JungmanJansson.tex) [166
+
+] [167]
+(./BlomdoftIMelodin/Kostervalsen.tex) [168
+
+] [169]
+(./BlomdoftIMelodin/KristallenDenFina.tex) [170
+
+]
+(./BlomdoftIMelodin/MenLiljornaDeVaxaUppOmVaren.tex) [171
+
+]
+(./BlomdoftIMelodin/Morgonvisa.tex) [172
+
+] (./BlomdoftIMelodin/OppnaLandskap.tex) [173
+
+] [174] (./BlomdoftIMelodin/PlockaVillJagSkogsviol.tex)
+<./BlomdoftIMelodin/../bilder/ros.jpg, id=605, 1356.06625pt x 1009.7725pt>
+File: ./BlomdoftIMelodin/../bilder/ros.jpg Graphic file (type jpg)
+
+<use ./BlomdoftIMelodin/../bilder/ros.jpg> [175
+
+] [176 <./BlomdoftIMelodin/../bilder/ros.jpg>] (./BlomdoftIMelodin/RosaPaBal.te
+x) [177
 
 ] [178]
-(./BlomdoftIMelodin/SvinnstaSkar.tex) [179
+(./BlomdoftIMelodin/SaLangeSkutanKanGa.tex) [179
 
 ] [180]
-(./BlomdoftIMelodin/UnderRonnOchSyren.tex) [181
+(./BlomdoftIMelodin/SaSkimrandeVarAldrigHavet.tex)
+<./BlomdoftIMelodin/../bilder/skargard.jpg, id=625, 466.8642pt x 310.761pt>
+File: ./BlomdoftIMelodin/../bilder/skargard.jpg Graphic file (type jpg)
 
-] [182]
-(./BlomdoftIMelodin/VarvindarFriska.tex) [183
+<use ./BlomdoftIMelodin/../bilder/skargard.jpg> [181
 
-]
-(./BlomdoftIMelodin/VisaVidVindensAngar.tex) [184
+ <./BlomdoftIMelodin/../bilder/skargard.jpg>] (./BlomdoftIMelodin/SjosalaVals.t
+ex) [182
 
-]) (./Silliskapitel/sillis.tex [185
+] [183]
+(./BlomdoftIMelodin/SvinnstaSkar.tex) [184
 
+] [185]
+(./BlomdoftIMelodin/UnderRonnOchSyren.tex) [186
 
-] (./Silliskapitel/GorMigTillFinlandssvensk.tex) [186
-
-]
-(./Silliskapitel/JamlikVisa.tex) [187
-
-]
-(./Silliskapitel/IFinlandsDjupaSkogar.tex) [188
-
-] [189]
-(./Silliskapitel/Lambo.tex) [190
-
-] (./Silliskapitel/LitenJumbo.tex) [191
+] [187]
+(./BlomdoftIMelodin/VarvindarFriska.tex) [188
 
 ]
-(./Silliskapitel/MjolkensLov.tex) [192
+(./BlomdoftIMelodin/VisaVidVindensAngar.tex) [189
 
-] (./Silliskapitel/Sadistvisa.tex)
+]
+(./BlomdoftIMelodin/UtiVarHage.tex) [190
+
+] (./BlomdoftIMelodin/Batlat.tex)
+[191
+
+] [192]) (./Silliskapitel/sillis.tex
+<./Silliskapitel/../bilder/sillis.png, id=664, 284.262pt x 199.947pt>
+File: ./Silliskapitel/../bilder/sillis.png Graphic file (type png)
+
+<use ./Silliskapitel/../bilder/sillis.png>
+Overfull \hbox (18.28307pt too wide) in paragraph at lines 5--6
+ [] 
+ []
+
 [193
 
-] [194] (./Silliskapitel/SolenDenGarUppONer.tex) [195
+
+ <./Silliskapitel/../bilder/sillis.png>] (./Silliskapitel/MjolkensLov.tex)
+<./Silliskapitel/../bilder/ko.jpg, id=669, 278.9622pt x 290.5254pt>
+File: ./Silliskapitel/../bilder/ko.jpg Graphic file (type jpg)
+
+<use ./Silliskapitel/../bilder/ko.jpg> [194
+
+ <./Silliskapitel/../bilder/ko.jpg>] (./Silliskapitel/Antisnapsvisa.tex) (./Sil
+liskapitel/Morgonstund.tex) [195
 
 ]
-(./Silliskapitel/Undulaten.tex) [196
+(./Silliskapitel/Kopparslagaren.tex) [196
 
-] [197]
-(./Silliskapitel/ViVillHaMeraRyssarUppIRymden.tex) [198
+] (./Silliskapitel/KissISangen.tex)
+[197
 
-]
-(./Silliskapitel/FinlandFinlandFinland.tex [199
+] (./Silliskapitel/PinkaVillJagGarna.tex)
+<./Silliskapitel/../bilder/kissnodigflicka.jpg, id=682, 203.0787pt x 302.0886pt
+>
+File: ./Silliskapitel/../bilder/kissnodigflicka.jpg Graphic file (type jpg)
+ <use ./Silliskapitel/../bilder/kissnodigflicka.jpg> [198
 
-]) [200]) (./register.sbx)
-(./register.sbx) [201
-
-
-
-] [202
-
-] [203
-
-] [204
-
-] [205
-
-] [206
-
-] [207
-
-] [208
-
-] [209
-
-] [210
+ <./Silliskapitel/../bilder/kissnodigflicka.jpg>] (./Silliskapitel/LitenJumbo.t
+ex) [199
 
 ]
-[211] [212
+(./Silliskapitel/DrommarOmBrannvin.tex)
+<./Silliskapitel/../bilder/far.jpg, id=690, 216.99068pt x 221.32687pt>
+File: ./Silliskapitel/../bilder/far.jpg Graphic file (type jpg)
 
-] (./songbook.aux) ) 
+<use ./Silliskapitel/../bilder/far.jpg> [200
+
+ <./Silliskapitel/../bilder/far.jpg>] (./Silliskapitel/JamlikVisa.tex) (./Silli
+skapitel/SolenDenGarUppONer.tex)
+[201
+
+] (./Silliskapitel/FinlandFinlandFinland.tex [202
+
+])
+<./Silliskapitel/../bilder/finland.jpg, id=700, 191.33482pt x 367.49295pt>
+File: ./Silliskapitel/../bilder/finland.jpg Graphic file (type jpg)
+
+<use ./Silliskapitel/../bilder/finland.jpg> [203 <./Silliskapitel/../bilder/fin
+land.jpg>] (./Silliskapitel/GorMigTillFinlandssvensk.tex) [204
+
+]
+(./Silliskapitel/IFinlandsDjupaSkogar.tex) [205
+
+] (./Silliskapitel/Undulaten.tex) <./Silliskapitel/../bilder/undulaten.png, id=
+711, 413.6253pt x 238.9728pt>
+File: ./Silliskapitel/../bilder/undulaten.png Graphic file (type png)
+
+<use ./Silliskapitel/../bilder/undulaten.png> [206
+
+] [207 <./Silliskapitel/../bilder/undulaten.png>] (./Silliskapitel/ViVillHaMera
+RyssarUppIRymden.tex)
+[208
+
+] (./Silliskapitel/Smogenvisan.tex) [209
+
+] (./Silliskapitel/TackStaten.tex)
+(./Silliskapitel/OmJagSkaPaFest.tex) (./Silliskapitel/Koskenkorva.tex)
+<./Silliskapitel/../bilder/alg.jpg, id=724, 354.8457pt x 508.23877pt>
+File: ./Silliskapitel/../bilder/alg.jpg Graphic file (type jpg)
+
+<use ./Silliskapitel/../bilder/alg.jpg> [210
+
+] [211 <./Silliskapitel/../bilder/alg.jpg>] (./Silliskapitel/Lambo.tex) [212
+
+] (./Silliskapitel/WeArePlojing.tex)
+(./Silliskapitel/VikarOVass.tex [213
+
+]) [214]) (./register.sbx
+Overfull \hbox (6.88539pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/m/n/10 Bj[]orneborgarnas 
+ []
+
+) (./register.sbx
+Overfull \hbox (10.52428pt too wide) in paragraph at lines 93--93
+ \OT1/cmr/m/n/10 Fin-landssven-sk 170 
+ []
+
+
+Overfull \hbox (40.35765pt too wide) in paragraph at lines 123--123
+ \OT1/cmr/m/n/10 In-finites-imald-if-fer-ensen 39 
+ []
+
+
+Overfull \hbox (9.16316pt too wide) in paragraph at lines 256--256
+ \OT1/cmr/m/n/10 Va-sun-gaflick-an 102 
+ []
+
+) [215
+
+
+] [216] [217] [218] [219] [220] [221] [222] [223] [224] (./songbook.aux) ) 
 Here is how much of TeX's memory you used:
- 2949 strings out of 95086
- 42971 string characters out of 1183255
- 131223 words of memory out of 1500000
- 5624 multiletter control sequences out of 10000+50000
+ 3332 strings out of 95086
+ 56792 string characters out of 1183255
+ 158436 words of memory out of 1500000
+ 5847 multiletter control sequences out of 10000+50000
  10874 words of font info for 37 fonts, out of 1200000 for 2000
  28 hyphenation exceptions out of 8191
- 31i,6n,43p,229b,178s stack positions out of 5000i,500n,6000p,200000b,5000s
-</usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmbx5.pfb>
-</usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmbx8.pfb></usr/share/texmf-te
-xlive/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/bl
-uesky/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr8.pfb></u
-sr/share/texmf-texlive/fonts/type1/bluesky/cm/cmss12.pfb></usr/share/texmf-texl
-ive/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/b
-luesky/cm/cmti12.pfb>
-Output written on songbook.pdf (212 pages, 356919 bytes).
+ 31i,7n,43p,229b,264s stack positions out of 5000i,500n,6000p,200000b,5000s
+</usr
+/share/texmf-texlive/fonts/type1/bluesky/cm/cmbx5.pfb></usr/share/texmf-texlive
+/fonts/type1/bluesky/cm/cmbx8.pfb></usr/share/texmf-texlive/fonts/type1/bluesky
+/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr5.pfb></usr/s
+hare/texmf-texlive/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf-texlive/fo
+nts/type1/bluesky/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/c
+m/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmti12.pfb>
+Output written on songbook.pdf (224 pages, 27309463 bytes).
 PDF statistics:
- 714 PDF objects out of 1000 (max. 8388607)
+ 810 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 
