@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterGenerator", "RegisterGenerator\RegisterGenerator.csproj", "{A8D37FD7-66BD-4213-A3BB-08E9DD54C72E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8D37FD7-66BD-4213-A3BB-08E9DD54C72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D37FD7-66BD-4213-A3BB-08E9DD54C72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D37FD7-66BD-4213-A3BB-08E9DD54C72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D37FD7-66BD-4213-A3BB-08E9DD54C72E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D387430-FB3F-4032-9AB2-BCB96CEF7914}
+	EndGlobalSection
+EndGlobal
