@@ -1,1 +1,3 @@
 *.orig
+/RegisterGenerator/.vs/*
+/RegisterGenerator/RegisterGenerator/obj/*

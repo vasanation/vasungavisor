@@ -2,6 +2,7 @@
 
 \documentclass[a6paper,8pt,makeidx]{book}
 \usepackage[a6paper]{geometry}
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc} %UTF8 stöd så att jag kan skriva åäö
 \usepackage[swedish]{babel}
 \usepackage{fancyhdr}
@@ -36,7 +37,8 @@
      {\mdseries\comment}
   }
 
-\newindex{mainindex}{register}
+\newindex{titleidx}{titleidx}
+
 \spenalty=-10001
 
 \renewcommand{\lyricfont}{\footnotesize}
@@ -45,6 +47,8 @@
 \noversenumbers
 
 \begin{document}
+
+\begin{songs}{titleidx}
 
 %\begin{songs}{mainindex}
 \addtocounter{songnum}{1}
@@ -79,12 +83,12 @@
 \import{./Silliskapitel/}{sillis.tex}
 \clearpage
 
-%\end{songs}
+\end{songs}
 
 % index fonts and options
 \renewcommand{\idxtitlefont}{\rmfamily\mdseries}
 \renewcommand{\idxlyricfont}{\rmfamily\mdseries}
 \renewcommand{\idxheadfont}{\sffamily\it\large}
 \setlength{\idxheadwidth}{0.5cm}
-\showindex{Register}{mainindex}
+\showindex{Register}{titleidx}
 \end{document}
