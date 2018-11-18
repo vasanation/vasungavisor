@@ -17,11 +17,6 @@
 % Antal kolumner
 \songcolumns{1}
 
-% Sätter in ett extra avstånd på 5mm efter varje sång
-\renewcommand{\extendpostlude}{
-  \vspace{5mm}
-}
-
 % Tjockleken på skiljelinjen mellan sångerna
 \setlength{\sbarheight}{0pt}
 
@@ -52,35 +47,38 @@
 
 \begin{songs}{titleidx}
 
+\import{./Forord/}{forord.tex}
+\clearpage
+
 \import{./IHoganNord/}{nord.tex}
-\sclearpage
+\clearpage
 
 \import{./IUngdomensVar/}{ungdom.tex}
-\sclearpage
+\clearpage
 
 \import{./UrTorstigaStrupar/}{strupar.tex}	
-\sclearpage
+\clearpage
 
 \import{./SaHarligBouquet/}{bouquet.tex}	
-\sclearpage
+\clearpage
 
 \import{./ArrakAckJa/}{arrak.tex}	
-\sclearpage
-
-\import{./FafaSkaSjung/}{fafa.tex}	
-\sclearpage
+\clearpage
 
 \import{./KunBotnialleSisaanAstuu/}{botnia.tex}	
-\sclearpage
+\clearpage
+
+\import{./FafaSkaSjung/}{fafa.tex}	
+\clearpage
 
 \import{./AuldAcquaintance/}{auld.tex}	
-\sclearpage
+\clearpage
 
 \import{./BlomdoftIMelodin/}{blomdoft.tex}
-\sclearpage
+\clearpage
 
 \import{./Silliskapitel/}{sillis.tex}
-\sclearpage
+\clearpage
 
 \end{songs}
 
