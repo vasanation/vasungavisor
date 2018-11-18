@@ -2,6 +2,7 @@
 
 \documentclass[a6paper,8pt,makeidx]{book}
 \usepackage[a6paper]{geometry}
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc} %UTF8 stöd så att jag kan skriva åäö
 \usepackage[swedish]{babel}
 \usepackage{fancyhdr}
@@ -10,44 +11,41 @@
 
 \usepackage[lyric]{songs}
 
-%\setlength{\oddsidemargin}{0in}
-%\setlength{\evensidemargin}{0in}
-%\setlength{\textwidth}{6.5in}
-%\setlength{\topmargin}{0in}
-%\setlength{\topskip}{0in}
-%\setlength{\headheight}{0in}
-%\setlength{\headsep}{0in}
-%\setlength{\textheight}{9.1in}
-%\settowidth{\versenumwidth}{1.\ }
+% Sidnummer samt header/footer
 \pagestyle{empty}
+
+% Antal kolumner
 \songcolumns{1}
-§
-\newcommand{\melody}{}
-  \newsongkey{sr}{\def\melody{}}
-                  {\def\melody{#1\par}}
 
-\newcommand{\comment}{}
- \newsongkey{com}{\def\comment{}}
-                {\def\comment{#1\par}}
+% Tjockleken på skiljelinjen mellan sångerna
+\setlength{\sbarheight}{0pt}
 
- \renewcommand{\extendprelude}{
-     {\mdseries\melody}
-     \showauthors
-     {\mdseries\comment}
-  }
+% Tjockleken på linjen framför refrängen
+\setlength{\cbarwidth}{1pt}
 
-\newindex{mainindex}{register}
-\spenalty=-10001
-
+% Storleken på texten
 \renewcommand{\lyricfont}{\footnotesize}
+
+% Storleken på rubrikerna
 \renewcommand{\stitlefont}{\sffamily\large}
 
+% Hindrar sångerna från att stretcha över hela sidan
+\renewcommand{\colbotglue}{0pt plus .5\textheight minus 0pt}
+
+% Bakgrundsfärgen på låtnumrering och sångkommentarer
+\definecolor{bgshade}{RGB}{235,235,235}
+\renewcommand{\snumbgcolor}{bgshade} % låtnumrering
+\renewcommand{\notebgcolor}{bgshade} % sångkommentarer
+
+% Inga nummer på verserna
 \noversenumbers
+
+% Skapa register med namnet 'titleidx' för filerna
+\newindex{titleidx}{titleidx}
 
 \begin{document}
 
-%\begin{songs}{mainindex}
-\addtocounter{songnum}{1}
+\begin{songs}{titleidx}
 
 \import{./IHoganNord/}{nord.tex}
 \clearpage
@@ -79,12 +77,12 @@
 \import{./Silliskapitel/}{sillis.tex}
 \clearpage
 
-%\end{songs}
+\end{songs}
 
-% index fonts and options
+% Registrets utseende
 \renewcommand{\idxtitlefont}{\rmfamily\mdseries}
 \renewcommand{\idxlyricfont}{\rmfamily\mdseries}
 \renewcommand{\idxheadfont}{\sffamily\it\large}
 \setlength{\idxheadwidth}{0.5cm}
-\showindex{Register}{mainindex}
+\showindex{Register}{titleidx}
 \end{document}
