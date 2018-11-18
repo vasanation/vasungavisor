@@ -2,3 +2,6 @@
 /RegisterGenerator/.vs/*
 /RegisterGenerator/RegisterGenerator/obj/*
 *.log
+*.aux
+*.sxc
+*.sxd
