@@ -8,7 +8,7 @@
 \usepackage{fancyhdr}
 \usepackage[pdftex]{graphicx}	% Kuvat kyttn, tukee .png, .jpg ja .pdf-kuvia
 \usepackage{import}		% Verbatim-tekstityyppi
-
+\usepackage{setspace}
 \usepackage[lyric]{songs}
 
 % Sidnummer samt header/footer
@@ -49,9 +49,8 @@
 \newindex{titleidx}{titleidx}
 
 \begin{document}
-
+\import{./Uppslag/}{uppslag.tex}
 \begin{songs}{titleidx}
-
 \import{./Forord/}{forord.tex}
 \sclearpage
 
