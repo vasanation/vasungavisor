@@ -10,6 +10,7 @@
 \usepackage{import}		% Verbatim-tekstityyppi
 \usepackage{setspace}
 \usepackage[lyric]{songs}
+\usepackage{graphicx,eso-pic}
 
 % Sidnummer samt header/footer
 \pagestyle{empty}
@@ -47,6 +48,15 @@
 
 % Skapa register med namnet 'titleidx' för filerna
 \newindex{titleidx}{titleidx}
+
+\newcommand\chapterimage[2][]{%
+  \AddToShipoutPictureBG*{% Add picture to BackGround on this page only
+    \AtTextLowerLeft{% Position at lower left of text block
+      \hspace*{.85\textwidth}% Move over to the right of text block
+      \llap{% Ignore horizontal width and overlap to the left
+        \smash{% Ignore vertical height
+          \raisebox{.1\textheight}{%
+            \includegraphics[#1]{#2}}}}}}}% Include image with options
 
 \begin{document}
 \import{./Uppslag/}{uppslag.tex}
