@@ -3,19 +3,33 @@
 % Kapitel "Auld Acquaintance"
 
 \songchapter{Auld Acquaintance}
-\chapterimage[width=1\textwidth]{../bilder/auld.jpg}
+\chapterimage[width=0.8\textwidth]{../bilder/auld.jpg}
+
+% Tar bort extra utrymme mellan sångerna, vilket just här orsakar tomma sidor
+\renewcommand{\extendpostlude}{
+  \vspace{0mm}
+}
 
 \input{JagTrivsBastIOsterbotten.tex}
 \sclearpage
-\input{Norrlandssangen.tex}
+
+% Sätter tillbaka utrymmet
+\renewcommand{\extendpostlude}{
+  \vspace{3mm}
+}
+
 \input{INorrlandVaxerDet.tex}
-\input{ViKomFranNorrland.tex}
+
 \begin{intersong}
 	\begin{center}
 		\vspace{30mm}
 		\includegraphics[width=1\textwidth]{../bilder/fardigabilder/CamillasFardigaBilder/Norrlandsdjupaskogar2.png} 
 	\end{center}
 \end{intersong}
+
+\input{ViKomFranNorrland.tex}
+\input{Norrlandssangen.tex}
+
 \sclearpage
 \input{GronOchVit.tex}
 \input{Kalmarevisan.tex}
@@ -41,7 +55,6 @@
 \input{EnBayerIHanden.tex}
 \sclearpage
 \input{MarjattaPokelan.tex}
-\input{JosEukkosiKieltaa.tex}
 \input{TrinkTrink.tex}
 \begin{intersong}
 \begin{center}
@@ -51,6 +64,7 @@
 \sclearpage
 \input{TiedatkoCivis.tex}
 \input{CivisMaitaKiertelee.tex}
+\input{JosEukkosiKieltaa.tex}
 \input{Urbummellied.tex}
 \input{SoTrollnWirUns.tex}
 \input{AuldLangSyne.tex}

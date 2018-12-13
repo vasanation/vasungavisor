@@ -3,7 +3,7 @@
 % Kapitel "Kampen För Helnykterhet"
 
 \songchapter{Kampen För Helnykterhet}
-\chapterimage[width=1\textwidth]{../bilder/fardigabilder/BilderTillKapitel/jagvarfull.png} 
+\chapterimage[width=0.8\textwidth]{../bilder/fardigabilder/BilderTillKapitel/jagvarfull.png} 
 
 \input{MjolkensLov.tex}
 \begin{intersong}
@@ -31,11 +31,9 @@
 \input{LitenJumbo.tex}
 \sclearpage
 \input{SolenDenGarUppONer.tex}
-\input{FinlandFinlandFinland.tex}
 \input{IFinlandsDjupaSkogar.tex}
-\sclearpage
 \input{GorMigTillFinlandssvensk.tex}
-\sclearpage
+\input{FinlandFinlandFinland.tex}
 \input{Undulaten.tex}
 \begin{intersong}
 \begin{center}
@@ -58,10 +56,14 @@
 \sclearpage
 \input{KukaHelvetti.tex}
 \input{Lambo.tex}
-\input{AllaArDoda.tex}
-\input{WeArePlojing.tex}
-\input{WhatShouldWeDo.tex}
-\input{Pelimies.tex}
 \input{DomSomArNyktra.tex}
-%\input{VikarOVass.tex}
+\input{WhatShouldWeDo.tex}
+\input{WeArePlojing.tex}
+% Tar bort extra utrymme mellan sångerna, vilket just här orsakar tomma sidor
+\renewcommand{\extendpostlude}{
+  \vspace{0mm}
+}
+\input{AllaArDoda.tex}
+
+\input{Pelimies.tex}
 \sclearpage
