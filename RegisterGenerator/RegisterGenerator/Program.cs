@@ -26,7 +26,7 @@ namespace RegisterGenerator
             p.StartInfo.UseShellExecute = false;
             p.StartInfo.RedirectStandardOutput = true;
             p.StartInfo.FileName = IndexGeneratorName;
-            p.StartInfo.Arguments = filename + ".sdx " + filename + ".sbx";
+            p.StartInfo.Arguments = filename + ".sxd " + filename + ".sbx";
             p.OutputDataReceived += (object sender, DataReceivedEventArgs e) => Console.WriteLine(e.Data);
             p.Start();
             p.BeginOutputReadLine();

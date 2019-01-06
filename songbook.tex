@@ -1,6 +1,6 @@
-% Vasa nations sångbok Vasungavisor 2010
+% Vasa nations sångbok Vasungavisor 2018
 
-\documentclass[a6paper,8pt,makeidx]{book}
+\documentclass[a6paper,8pt,makeidx,openany]{book}
 \usepackage[a6paper]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc} %UTF8 stöd så att jag kan skriva åäö
@@ -8,14 +8,20 @@
 \usepackage{fancyhdr}
 \usepackage[pdftex]{graphicx}	% Kuvat kyttn, tukee .png, .jpg ja .pdf-kuvia
 \usepackage{import}		% Verbatim-tekstityyppi
-
+\usepackage{setspace}
 \usepackage[lyric]{songs}
+\usepackage{graphicx,eso-pic}
 
 % Sidnummer samt header/footer
 \pagestyle{empty}
 
 % Antal kolumner
 \songcolumns{1}
+
+% Sätter in ett extra avstånd på 5mm efter varje sång
+\renewcommand{\extendpostlude}{
+  \vspace{3mm}
+}
 
 % Tjockleken på skiljelinjen mellan sångerna
 \setlength{\sbarheight}{0pt}
@@ -43,42 +49,61 @@
 % Skapa register med namnet 'titleidx' för filerna
 \newindex{titleidx}{titleidx}
 
+\newcommand\chapterimage[2][]{%
+  \AddToShipoutPictureBG*{% Add picture to BackGround on this page only
+    \AtTextLowerLeft{% Position at lower left of text block
+      \hspace*{.85\textwidth}% Move over to the right of text block
+      \llap{% Ignore horizontal width and overlap to the left
+        \smash{% Ignore vertical height
+          \raisebox{.1\textheight}{%
+            \includegraphics[#1]{#2}}}}}}}% Include image with options
+
 \begin{document}
+\import{./Uppslag/}{uppslag.tex}
 
 \begin{songs}{titleidx}
+\import{./Forord/}{forord.tex}
 
-\import{./IHoganNord/}{nord.tex}
-\clearpage
+\import{./IHoganNord/}{inord.tex}
+\sclearpage
 
 \import{./IUngdomensVar/}{ungdom.tex}
-\clearpage
+\sclearpage
 
 \import{./UrTorstigaStrupar/}{strupar.tex}	
-\clearpage
+\sclearpage
 
 \import{./SaHarligBouquet/}{bouquet.tex}	
-\clearpage
+\sclearpage
 
 \import{./ArrakAckJa/}{arrak.tex}	
-\clearpage
-
-\import{./FafaSkaSjung/}{fafa.tex}	
-\clearpage
+\sclearpage
 
 \import{./KunBotnialleSisaanAstuu/}{botnia.tex}	
-\clearpage
+\sclearpage
+
+\import{./FafaSkaSjung/}{fafa.tex}	
+\sclearpage
 
 \import{./AuldAcquaintance/}{auld.tex}	
-\clearpage
+\sclearpage
 
 \import{./BlomdoftIMelodin/}{blomdoft.tex}
-\clearpage
+\sclearpage
 
 \import{./Silliskapitel/}{sillis.tex}
-\clearpage
+\sclearpage
+
+\import{./VettOchEtikett/}{vett.tex}
+\sclearpage
+
 
 \end{songs}
-
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=40mm]{./bilder/fardigabilder/BilderTillKapitel/visslaren.png} 
+	\end{center}
+\end{figure}
 % Registrets utseende
 \renewcommand{\idxtitlefont}{\rmfamily\mdseries}
 \renewcommand{\idxlyricfont}{\rmfamily\mdseries}

@@ -1,60 +1,71 @@
-% Innehållet i Vasungavisor 2010
+% Innehållet i Vasungavisor 2018
 %
-% Kapitel "I Högan Nord"
+% Kapitel "Auld Acquaintance"
 
 \songchapter{Auld Acquaintance}
-\begin{figure}[!b]
-\begin{center}
-\includegraphics[width=6cm]{../bilder/auld.jpg} 
-\end{center}
-\end{figure}
-\clearpage
+\chapterimage[width=0.8\textwidth]{../bilder/auld.jpg}
+
+% Tar bort extra utrymme mellan sångerna, vilket just här orsakar tomma sidor
+\renewcommand{\extendpostlude}{
+  \vspace{0mm}
+}
+
 \input{JagTrivsBastIOsterbotten.tex}
-\clearpage
+\sclearpage
+
+% Sätter tillbaka utrymmet
+\renewcommand{\extendpostlude}{
+  \vspace{3mm}
+}
+
 \input{INorrlandVaxerDet.tex}
-\begin{figure}[!b]
-\begin{center}
-\includegraphics[width=4cm]{../bilder/inorrland.jpg} 
-\end{center}
-\end{figure}
-\clearpage
+
+\begin{intersong}
+	\begin{center}
+		\vspace{30mm}
+		\includegraphics[width=1\textwidth]{../bilder/fardigabilder/CamillasFardigaBilder/Norrlandsdjupaskogar2.png} 
+	\end{center}
+\end{intersong}
+
 \input{ViKomFranNorrland.tex}
-\clearpage
+\input{Norrlandssangen.tex}
+
+\sclearpage
+\input{GronOchVit.tex}
 \input{Kalmarevisan.tex}
-\begin{figure}[!b]
-\begin{center}
-\includegraphics[width=4cm]{../bilder/bonde.jpg} 
-\end{center}
-\end{figure}
-\clearpage
+
+\sclearpage
+\input{Olandsbron.tex}
 \input{LossisNimegaGradesko.tex}
-\clearpage
+\sclearpage
 \input{MeMottedOnPriid.tex}
-\clearpage
+\sclearpage
+\input{OonLohnab.tex}
+
+\input{KuiOnJoudnud.tex}
+\sclearpage
 \input{Aquaviten.tex}
-\begin{figure}[!b]
-\begin{center}
-\includegraphics[width=25mm]{../bilder/dansk.jpg} 
-\end{center}
-\end{figure}
-\clearpage
-\input{ViinaPainaa.tex}
-\clearpage
-\input{JosEukkosiKieltaa.tex}
-\clearpage
+\input{DenLilleMand.tex}
+\begin{intersong}
+	\begin{center}
+		\includegraphics[width=0.3\textwidth]{../bilder/fardigabilder/CamillasFardigaBilder/EnDanskAquavit2.png} 
+	\end{center}
+\end{intersong}
+\input{Grisehymnen.tex}
+\input{EnBayerIHanden.tex}
+\sclearpage
+\input{MarjattaPokelan.tex}
 \input{TrinkTrink.tex}
-\begin{figure}[!b]
+\begin{intersong}
 \begin{center}
 \includegraphics[width=3cm]{../bilder/trinktrink.jpg} 
 \end{center}
-\end{figure}
-\clearpage
+\end{intersong}
+\sclearpage
+\input{TiedatkoCivis.tex}
+\input{CivisMaitaKiertelee.tex}
+\input{JosEukkosiKieltaa.tex}
 \input{Urbummellied.tex}
-\clearpage
 \input{SoTrollnWirUns.tex}
-\clearpage
 \input{AuldLangSyne.tex}
-\clearpage
-\input{WhatShouldWeDo.tex}
-\clearpage
-\input{KukaHelvetti.tex}
+\sclearpage
