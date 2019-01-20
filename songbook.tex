@@ -1,17 +1,17 @@
 % Vasa nations sångbok Vasungavisor 2018
 
-\documentclass[a6paper,8pt,makeidx,openany]{book}
-\usepackage[a6paper]{geometry}
+\documentclass[a6paper,11pt,makeidx,openany]{book}
+\usepackage[a6paper,margin=0.5in]{geometry}
 \usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage[utf8]{inputenc} %UTF8 stöd så att jag kan skriva åäö
+\usepackage{lmodern} % Vektorfonter istället för bitmaps, för bättre resolution på texten
+\usepackage[utf8]{inputenc} % UTF8 stöd så att jag kan skriva åäö
 \usepackage[swedish]{babel}
 \usepackage{fancyhdr}
-\usepackage[pdftex]{graphicx}	% Kuvat kyttn, tukee .png, .jpg ja .pdf-kuvia
-\usepackage{import}		% Verbatim-tekstityyppi
+\usepackage[pdftex]{graphicx}	% Bilder. Stöder .png, .jpg och .pdf
+\usepackage{import}		
 \usepackage{setspace}
 \usepackage[lyric]{songs}
-\usepackage{graphicx,eso-pic}
+\usepackage{graphicx,eso-pic} % Möjliggör lite mer avancerat trixande med bilder, se kapitelbildslösningen nedan
 
 % Sidnummer samt header/footer
 \pagestyle{empty}
@@ -50,13 +50,14 @@
 % Skapa register med namnet 'titleidx' för filerna
 \newindex{titleidx}{titleidx}
 
-\newcommand\chapterimage[2][]{%
-  \AddToShipoutPictureBG*{% Add picture to BackGround on this page only
+% Lösning som placerar kapitelbilderna centrerat på bakgrunden, så att de inte trycker ner texten och skapar tomma sidor
+\newcommand\chapterimage[2][]{
+  \AddToShipoutPictureBG*{% Add picture to background on this page only
     \AtTextLowerLeft{% Position at lower left of text block
       \hspace*{.85\textwidth}% Move over to the right of text block
       \llap{% Ignore horizontal width and overlap to the left
         \smash{% Ignore vertical height
-          \raisebox{.1\textheight}{%
+          \raisebox{.1\textheight}{
             \includegraphics[#1]{#2}}}}}}}% Include image with options
 
 \begin{document}
